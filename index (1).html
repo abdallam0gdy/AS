@@ -1,0 +1,16 @@
+                        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+                        <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+                        <video id="player" playsinline controls>
+                        <source src="https://firebasestorage.googleapis.com/v0/b/ahmed-samy-1.appspot.com/o/%D8%A7%D9%84%D9%85%D8%AD%D9%84%20%D8%A7%D9%84%D8%A7%D8%B9%D8%B1%D8%A7%D8%A8%D9%8A%20%D9%84%D9%84%D8%AC%D9%85%D9%84.mp4?alt=media&token=1c6cd3b5-dd93-497b-97b3-813ec5adc66d" type="video/mp4" />
+                        </video>
+                        <script>
+                        const player = new Plyr('#player');
+                        </script>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener('keydown', event => {
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+      event.preventDefault();
+    }
+  });
+  </script>
